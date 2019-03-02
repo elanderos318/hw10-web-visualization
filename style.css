@@ -1,0 +1,88 @@
+/* Element CSS */
+
+p {
+    line-height: 28px;
+}
+
+/* All Main Headers */
+
+.header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #2caaa5;
+    font-weight: bold;
+}
+
+/* Navbar */
+
+.navbar-container {
+    background-color: white;
+    
+}
+
+.navbar-brand {
+    /* color: white; */
+    background-color: darkturquoise;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    position: relative;
+    left: 25px;
+}
+
+/* Landing Page */
+
+.background {
+    background-color: rgb(200,200,200);
+}
+
+.container-content {
+    margin: 20px 20px;
+    min-height: 140vh;
+}
+
+.main-content {
+    padding: 30px 40px 20px 40px;
+    margin: 20px 5px;
+    background-color: white;
+}
+
+.main-image {
+    float: left;
+    width: 60%;
+    padding: 20px;
+    padding-left: 0px;
+}
+
+
+.main-text {
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.side-content {
+    padding: 30px 40px 20px 40px;
+    margin-top: 20px;
+    margin-right: 5px;
+    background-color: white;
+}
+
+.side-image {
+    width: 100%;
+}
+
+.viz-image {
+    width: 80%
+}
+
+@media (max-width: 1200px) {
+    .navbar-header {
+        position: static;
+        background-color: darkturquoise;
+
+    }
+
+    .navbar-brand {
+        position: relative;
+        background-color: darkturquoise;
+        left: 15px;
+    }
